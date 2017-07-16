@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         //Log.i("Info", conversionRate.toString());
         //Log.i("Info", greatBritishPounds.toString());
 
-        Toast.makeText(MainActivity.this, greatBritishPounds.toString(), Toast.LENGTH_LONG).show();
+        Toast.makeText(MainActivity.this, String.format("%.2f", greatBritishPounds), Toast.LENGTH_LONG).show();
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
